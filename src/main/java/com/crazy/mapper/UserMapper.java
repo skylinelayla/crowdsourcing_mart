@@ -21,6 +21,4 @@ public interface UserMapper {
     @Select("SELECT * FROM USERS")
     public List<Users> searchAll();
 
-
-
 }
